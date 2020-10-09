@@ -1,0 +1,17 @@
+.main-page{
+    position: relative;
+    background-image: url(../img/Black-main.jpg);
+    height: 750px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.main-page__quotation{
+    position: absolute;
+    right: 0;
+    top: 115px;
+    font-family: 'Courgette', cursive;
+    font-size: 3rem;
+    color: rgb(222, 223, 223);
+    display: inline;
+}

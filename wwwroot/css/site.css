@@ -1,15 +1,28 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
+:root{
+  --color-font: #333333;
+  --color-font-lighten:#555454;
+  --color-font-light:#858383;
+}
 
 a.navbar-brand {
   white-space: normal;
   text-align: center;
   word-break: break-all;
 }
-
+.navbar-brand__name{
+  font-family: 'Kalam', cursive;
+  font-weight: 400;
+  font-size: 2rem;
+  color: rgba(212, 245, 229, 0.986);
+}
 /* Provide sufficient contrast against white background */
 a {
-  color: #0366d6;
+  color: #000000;
+}
+a:hover{
+  color: #000000;
 }
 
 .btn-primary {
@@ -38,12 +51,13 @@ html {
 .border-top {
   border-top: 1px solid #e5e5e5;
 }
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
+.u-border-bottom {
+  border-bottom: 0.3px solid rgba(59, 114, 63, 0.342);
+
 }
 
 .box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+  box-shadow: 0 .25rem .75rem rgba(36, 53, 38, 0.466);
 }
 
 button.accept-policy {
@@ -61,6 +75,9 @@ html {
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  background-color: rgb(28, 28, 33);
+  height: 100%;
+  
 }
 .footer {
   position: absolute;

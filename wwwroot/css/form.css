@@ -1,0 +1,36 @@
+.form--input-box{
+    position: relative;
+    text-align: left;
+    margin: 0 0 3vh;
+    
+}
+.form--input-box::before,
+.form--input-box::after{
+content: "";
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+height: 2px;
+background-color: rgba(0, 0, 0, 0.11);
+
+}
+.form--input-box::before{
+    background-image: linear-gradient(to right, red 0%, rgba(163, 248, 146) 60%,  rgb(1, 71, 16) 100%);
+}
+.form--input-box::after{
+
+}
+.form--input-box input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    line-height: 1.9;
+    outline: transparent;
+    margin-top: 2vh;
+}
+.form--input-box label {
+    font-size: 0.7rem;
+    cursor: pointer;
+}

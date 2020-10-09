@@ -18,7 +18,7 @@ namespace Dziobify.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Welcome()
         {
             return View();
         }
